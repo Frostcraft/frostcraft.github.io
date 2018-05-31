@@ -1,2 +1,6 @@
-# Resource Pack
-The frostcraft resource pack is still under development, however over time the tools used to generate the files will become more advanced.
+Current Projects
+=
+>## [Resource Pack](https://github.com/Frostcraft/resource-pack)
+>The frostcraft server resource pack.
+While still simple and mostly just images, the pack will become more automated over time requires tools and code to be used.
+
