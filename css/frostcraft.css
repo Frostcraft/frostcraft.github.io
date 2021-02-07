@@ -22,5 +22,6 @@
 
 .frostcraft-footer {
     background-color: #DDDDDD;
-
+    bottom: 0;
+    height: 100px;
 }
