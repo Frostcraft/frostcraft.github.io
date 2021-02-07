@@ -17,11 +17,11 @@
 
         <div class="collapse navbar-collapse" id="frostcraft-navbar">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/rules.html">Rules</a></li>
-                <li class="nav-item"><a class="nav-link" href="/lore.html">Lore</a></li>
-                <li class="nav-item"><a class="nav-link" href="/discord.html">Discord</a></li>
-                <li class="nav-item"><a class="nav-link" href="/projects.html">Projects on GitHub</a></li>
+                <li class="nav-item{% if page.page-name=="index"%} active{% endif %}"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item{% if page.page-name=="rules"%} active{% endif %}"><a class="nav-link" href="/rules.html">Rules</a></li>
+                <li class="nav-item{% if page.page-name=="lore"%} active{% endif %}"><a class="nav-link" href="/lore.html">Lore</a></li>
+                <li class="nav-item{% if page.page-name=="discord"%} active{% endif %}"><a class="nav-link" href="/discord.html">Discord</a></li>
+                <li class="nav-item{% if page.page-name=="projects"%} active{% endif %}"><a class="nav-link" href="/projects.html">Projects on GitHub</a></li>
             </ul>
         </div>
     </nav>
